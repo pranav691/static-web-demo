@@ -177,3 +177,429 @@ header {
   font-size: 0.9rem;
   font-weight: 600;
 }
+/* =========================================
+   CI/CD PIPELINE
+   ========================================= */
+
+.pipeline {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.pipeline-step {
+  min-width: 150px;
+  flex: 1;
+  padding: 1rem;
+  background: #f7f8fa;
+  border: 1px solid #e4e6eb;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pipeline-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pipeline-step h3 {
+  color: #003366;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pipeline-step p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.pipeline-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #003366;
+  font-weight: bold;
+}
+
+
+/* CI/CD Information Cards */
+
+.cicd-card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f7f8fa;
+  border-left: 4px solid #003366;
+  border-radius: 8px;
+}
+
+.cicd-card h3 {
+  color: #003366;
+  margin-bottom: 0.75rem;
+}
+
+.cicd-card p {
+  line-height: 1.6;
+}
+
+.cicd-card ul {
+  margin-top: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.cicd-card li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+
+/* Tools */
+
+.tools-section {
+  margin-top: 1.5rem;
+}
+
+.tools-section h3 {
+  color: #003366;
+  margin-bottom: 0.75rem;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tools span {
+  padding: 0.5rem 0.8rem;
+  background: #e8f0f7;
+  color: #003366;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+
+/* Pipeline Summary */
+
+.pipeline-summary {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f0f5fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.pipeline-summary h3 {
+  color: #003366;
+  margin-bottom: 0.75rem;
+}
+
+.pipeline-summary p {
+  line-height: 1.7;
+}
+
+
+/* Instructable */
+
+.instruction-list {
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.instruction-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+  .pipeline {
+    flex-direction: column;
+  }
+
+  .pipeline-arrow {
+    transform: rotate(90deg);
+    padding: 0.25rem;
+  }
+
+}
+/* =========================================
+   CI/CD PIPELINE
+   ========================================= */
+
+.pipeline-container {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.pipeline-step {
+  min-width: 145px;
+  flex: 1;
+  padding: 1.2rem;
+  text-align: center;
+  background: #f7f8fa;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+}
+
+.pipeline-number {
+  width: 35px;
+  height: 35px;
+  margin: 0 auto 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #003366;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.pipeline-step h3 {
+  color: #003366;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pipeline-step p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.pipeline-arrow {
+  display: flex;
+  align-items: center;
+  color: #003366;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+/* =========================================
+   CI/CD SECTIONS
+   ========================================= */
+
+.cicd-section {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f7f8fa;
+  border-left: 4px solid #003366;
+  border-radius: 8px;
+}
+
+.cicd-section h3 {
+  color: #003366;
+  margin-bottom: 0.75rem;
+}
+
+.cicd-section h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cicd-section p {
+  line-height: 1.7;
+}
+
+.cicd-section ol {
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.cicd-section li {
+  margin-bottom: 0.5rem;
+}
+
+
+/* =========================================
+   CODE BOX
+   ========================================= */
+
+.code-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #161b22;
+  color: #f0f6fc;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.code-box pre {
+  margin: 0;
+  font-family: Consolas, "Courier New", monospace;
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   TECHNOLOGIES
+   ========================================= */
+
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.technology-list span {
+  padding: 0.5rem 0.8rem;
+  background: #e8f0f7;
+  color: #003366;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+
+/* =========================================
+   PIPELINE SUMMARY
+   ========================================= */
+
+.pipeline-summary {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: #f0f5fa;
+  border-radius: 8px;
+}
+
+.pipeline-summary h3 {
+  color: #003366;
+  margin-bottom: 0.75rem;
+}
+
+.pipeline-summary p {
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   INSTRUCTABLE
+   ========================================= */
+
+.instruction-card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f7f8fa;
+  border: 1px solid #dfe3e8;
+  border-radius: 10px;
+}
+
+.step-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.step-title span {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #003366;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.step-title h3 {
+  color: #003366;
+}
+
+.instruction-card p {
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   SUCCESS MESSAGE
+   ========================================= */
+
+.success-box {
+  margin-top: 0.75rem;
+  padding: 1rem;
+  background: #eef8ee;
+  border: 1px solid #b7d8b7;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   WORKFLOW STATUS
+   ========================================= */
+
+.workflow-status {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.workflow-status div {
+  padding: 0.75rem 1rem;
+  background: white;
+  border: 1px solid #dfe3e8;
+  border-radius: 6px;
+}
+
+
+/* =========================================
+   FINAL RESULT
+   ========================================= */
+
+.final-result {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f0f5fa;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.final-result h3 {
+  color: #003366;
+  margin-bottom: 0.75rem;
+}
+
+.final-result p {
+  line-height: 1.7;
+}
+
+.final-flow {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 6px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVENESS
+   ========================================= */
+
+@media (max-width: 650px) {
+
+  .pipeline-container {
+    flex-direction: column;
+  }
+
+  .pipeline-arrow {
+    justify-content: center;
+    transform: rotate(90deg);
+  }
+
+}
